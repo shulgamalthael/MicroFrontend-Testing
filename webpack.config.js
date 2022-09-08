@@ -9,12 +9,12 @@ module.exports = {
     port: 5544,
   },
   output: {
-    publicPath: "auto"
+    publicPath: 'auto'
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
         exclude: /node_modules/
       }
     ],
