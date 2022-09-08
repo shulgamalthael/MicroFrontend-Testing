@@ -1,0 +1,34 @@
+.wl-fb-popup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    font-family: 700;
+    border-radius: 15px;
+    top: calc(50% - 150px);
+    left: calc(75px);
+    box-shadow: 0 0 3.33px 1.11px rgba(0,0,0,0.888);
+}
+
+.wl-fb-popup-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    transform: rotate(45deg);
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.wl-fb-popup-close:hover {
+    color: rgb(70, 70, 248);
+}
+
+.wl-fb-popup-single {
+    left: calc(50% - 150px);
+}

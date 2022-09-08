@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+
+.single-content {
+    height: 100vh;
+}

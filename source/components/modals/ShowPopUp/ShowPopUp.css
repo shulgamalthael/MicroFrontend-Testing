@@ -1,0 +1,13 @@
+.wl-fb-showpopup {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    left: 150px;
+    bottom: calc(50% - 25px);
+    border-radius: 50%;
+    box-shadow: 0 0 3.33px 1.11px rgba(0,0,0,0.888);
+}
